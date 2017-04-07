@@ -16,7 +16,7 @@
  */
 // write your code here
 
-
+var person = (name: "Harry", age: 64)
 
 
 
@@ -28,7 +28,7 @@
  */
 // write your code here
 
-
+print("\(person.name) is \(person.age) years old")
 
 
 
@@ -40,7 +40,8 @@
  */
 // write your code here
 
-
+person.age += 1
+print("\(person.name) is \(person.age) years old")
 
 
 
@@ -52,7 +53,7 @@
  */
 // write your code here
 
-
+print("Happy \(person.age) birthday, \(person.name)!")
 
 
 
@@ -63,7 +64,7 @@
  ### 5. Create another person variable called `someone` using _named_ fields for the name and age.
  */
 // write your code here
-
+var someone = (name: "Julia", age: 41)
 
 
 
@@ -77,7 +78,7 @@
 // write your code here
 
 
-
+print("\(someone.name) is \(someone.age) years old")
 
 
 
@@ -87,7 +88,7 @@
  */
 // write your code here
 
-
+someone.age += 1
 
 
 
@@ -99,7 +100,7 @@
 // write your code here
 
 
-
+print("Happy \(someone.age) birthday, \(someone.name)")
 
 
 
@@ -111,7 +112,7 @@
 // write your code here
 
 
-
+let human = (name: "Bob", age: 34)
 
 
 
@@ -120,7 +121,7 @@
 /*:
  ### 10. Can you change `human`'s age? Why or why not?
  */
-
+// No, cannot change human's age or name, because it is a 'let'. A let is a constant.
 
 
 
